@@ -69,7 +69,7 @@ setTimeout(function() {
     let score = 0;
     
     for(let i=0; i<userNumbers.length; i++) {
-        if(userNumbers.includes(userNumbers[i])){
+        if(randomNumbers.includes(userNumbers[i])){
             guessedNumbers.push(userNumbers[i]);
             score++;
         }
