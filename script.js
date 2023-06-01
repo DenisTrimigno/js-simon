@@ -59,7 +59,7 @@ document.getElementById('random-numbers').innerHTML = randomNumbers;
 setTimeout(function() {
     document.getElementById('random-numbers').innerHTML = '';
     document.getElementById('message').innerHTML = 'inserire i numeri che ti ricordi';
-}, 5000);
+}, 30000);
 
 
 // richiamo alla funzione per inserimento numeri utente
@@ -77,4 +77,4 @@ setTimeout(function() {
 
     document.getElementById('message').innerHTML = `Hai indovinato ${score} numeri. ecco quelli insovinati: ${guessedNumbers}`;
   
-}, 6000);
+}, 31000);
